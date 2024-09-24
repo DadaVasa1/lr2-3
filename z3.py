@@ -1,4 +1,4 @@
-
-age = input("Введите ваш возраст: ")
-age = int(age)
-print("Через год вам будет {age + 1} лет.")
+import math
+s = float(input("Введите объем шара s: "))
+r = (3 * s * (1/3) / (4 * math.pi))
+print("Радиус шара равен: ", r)
